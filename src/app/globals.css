@@ -51,7 +51,8 @@ body {
 .rich-content a { color: #b45309; text-decoration: underline; }
 .rich-content mark { border-radius: 2px; padding: 0 0.1em; }
 .rich-content hr { border-color: #d6d3d1; }
-.rich-content p:empty::before, .rich-content p > br.ProseMirror-trailingBreak:only-child { content: ""; }
+/* Parágrafos vazios (linhas em branco) ocupam uma linha inteira na leitura, como no editor. */
+.rich-content p:empty { min-height: 1lh; }
 .ProseMirror p.is-editor-empty:first-child::before { content: attr(data-placeholder); }
 
 @keyframes fade-in {
