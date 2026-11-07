@@ -6,6 +6,7 @@ import { Color, FontSize, TextStyle } from "@tiptap/extension-text-style";
 import Highlight from "@tiptap/extension-highlight";
 import TextAlign from "@tiptap/extension-text-align";
 import { useEffect, type ReactNode } from "react";
+import { PasteLineBreaks } from "./paste-line-breaks";
 
 const FONT_SIZES = ["12px", "14px", "16px", "18px", "20px", "24px", "30px", "36px", "48px"];
 
@@ -27,6 +28,7 @@ export function RichTextEditor({ initialContent = "", onChange, resetKey, autoFo
       FontSize,
       Highlight.configure({ multicolor: true }),
       TextAlign.configure({ types: ["heading", "paragraph"] }),
+      PasteLineBreaks,
     ],
     content: initialContent,
     autofocus: autoFocus ? "end" : false,
