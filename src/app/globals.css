@@ -30,10 +30,12 @@ body {
 /* Conteúdo formatado dos cards (editor e leitura) */
 .rich-content {
   font-size: 1.0625rem;
-  line-height: 1.7;
+  line-height: 1.4;
   overflow-wrap: anywhere;
 }
 .rich-content > * + * { margin-top: 0.75em; }
+/* Como no Google Docs: sem espaço extra entre parágrafos; linhas em branco dão a separação. */
+.rich-content > p + p { margin-top: 0; }
 .rich-content h1 { font-size: 1.75em; font-weight: 700; line-height: 1.25; }
 .rich-content h2 { font-size: 1.35em; font-weight: 600; line-height: 1.3; }
 .rich-content h3 { font-size: 1.15em; font-weight: 600; }
