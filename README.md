@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="public/logo.svg" alt="Logo do Revisor: um gato de óculos revisando um texto" width="128">
+</p>
+
 # revisor
 Projeto que auxilia na revisão de conteúdos estudados.
 

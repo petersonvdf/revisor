@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="t">
+  <title id="t">Revisor</title>
+  <!-- Cabeça e orelhas arredondadas -->
+  <path d="M14 31 L13.2 15 Q12.8 9.5 17.5 12.2 L25 18 Q32 16 39 18 L46.5 12.2 Q51.2 9.5 50.8 15 L50 31 Q51 46 32 47 Q13 46 14 31 Z" fill="#fafaf9" stroke="#57534e" stroke-width="2" stroke-linejoin="round"/>
+  <!-- Olhos olhando para o texto -->
+  <circle cx="24" cy="32" r="2.2" fill="#57534e"/>
+  <circle cx="40" cy="32" r="2.2" fill="#57534e"/>
+  <!-- Nariz arredondado -->
+  <path d="M30.6 38.2 Q32 37.6 33.4 38.2 Q33.2 39.8 32 40.4 Q30.8 39.8 30.6 38.2 Z" fill="#57534e" stroke="#57534e" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- Folha de texto -->
+  <rect x="13" y="43" width="38" height="19.5" rx="2.5" fill="#ffffff" stroke="#44403c" stroke-width="2"/>
+  <path d="M19 49 H37 M19 54.5 H45 M19 60 H33" stroke="#a8a29e" stroke-width="2" stroke-linecap="round"/>
+  <!-- Marca de revisão -->
+  <path d="M43.6 50 L44.9 51.3 L47.4 48.6" fill="none" stroke="#57534e" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Patas segurando a folha -->
+  <ellipse cx="19" cy="43.5" rx="4" ry="2.6" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
+  <ellipse cx="45" cy="43.5" rx="4" ry="2.6" fill="#fafaf9" stroke="#57534e" stroke-width="1.5"/>
+</svg>

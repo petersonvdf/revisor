@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Geist } from "next/font/google";
 import { Nav } from "@/components/nav";
 import "./globals.css";
@@ -16,8 +17,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="flex min-h-full flex-col">
         <header className="border-b border-stone-200 bg-white/80 backdrop-blur dark:border-stone-800 dark:bg-stone-950/80">
           <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-between gap-3 px-4 py-3">
-            <span className="text-lg font-semibold tracking-tight">
-              <span className="text-amber-500">●</span> Revisor
+            <span className="flex items-center gap-2 text-lg font-semibold tracking-tight">
+              <Image src="/logo.svg" alt="" width={36} height={36} unoptimized priority />
+              Revisor
             </span>
             <Nav />
           </div>
